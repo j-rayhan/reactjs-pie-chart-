@@ -1,0 +1,54 @@
+
+html, body{
+  height: 100%;
+}
+  
+body{
+  background-color: #aaa;
+  color: #fff ;
+  font-family: 'Lato', sans-serif;
+}
+header
+  { margin-bottom: 30px;}
+
+header, footer{
+  background-color: #eee;
+  color: #000;
+  height: 50px;
+  width: 100%;}
+  
+footer{
+  text-align: center;
+  padding-top: 5px;
+  font-size: 18px;}
+  
+footer a {
+  color: #aaa;
+  &:hover, &:visited
+    color: white ;}   
+  
+header .odduulogo{
+  margin-top: 10px;
+  width: 250px;
+  height: 30px ;
+  }
+
+#header{
+
+  background-color: #006400;
+  text-align: center;
+  padding: 8px;
+  border-color: #351f0b;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#header  h3 {
+    color: #000;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 300;
+}
+.btn{
+  font-weight: 400;}
+
